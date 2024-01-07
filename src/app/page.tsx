@@ -1,7 +1,3 @@
-import { kv } from "@vercel/kv";
-import { sql } from "@vercel/postgres";
-import { redirect } from "next/navigation";
-
 export default function Home() {
   return (
     <main className="">
